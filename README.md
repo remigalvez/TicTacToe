@@ -40,7 +40,7 @@ coordinate of a cell in which they would like to place their token, and the
 grid is updated. The winner is then announced when either player wins the game,
 or announces a 'cat game' if the game is a tie.
 
-If the user would like to quit the game, they may enter a lowercase ```q``` when 
+If the user would like to quit the game, they may enter a lowercase `q` when 
 prompted for their next move. This will quit the game.
 
 ## Rules
@@ -105,7 +105,11 @@ O - Which square? [1-9] :
 ================================================================================
 
 The following sequence would result in the following board, and messages:
-{X:1, O:4, X:5, O:6, X:9}
+`X:1, 
+O:4, 
+X:5, 
+O:6, 
+X:9 `
 
 ================================================================================
 ```
