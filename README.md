@@ -20,7 +20,7 @@ XXXXXXXXXXXXXX
             CC  CC      CC CCCCCCCCCC         
             CC   CC    CC   CCC            CC 
             CC    CCCCCC     CCCCCCCCCCCCCCC  
-'
+`
 This program is one designed to allow two users to play the classic game of 
 Tic Tac Toe from the command line. 
 
@@ -74,7 +74,7 @@ represents the coordinate assigned to that cell in the grid.
 ⌞-----------------⌟
 
 X - Which square? [1-9] : 
-'
+`
 ================================================================================
 
 The player who's turn it is, is represented at the beginning of the prompt by
