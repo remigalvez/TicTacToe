@@ -140,4 +140,4 @@ Refer to the source code in `TicTacToe.c` for any inquiries about the code.
 
 The program follows the following architecture:
 
-<img src="flow-chart.png" />
+<img src="flow-chart.png" width="350"/>
