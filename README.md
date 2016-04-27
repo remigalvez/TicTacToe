@@ -32,7 +32,7 @@ turns placing one of their assigned tokens in an unoccupied cell (in the grid)
 of their choice. The first player to place 3 of their tokens in a row 
 (vertically, horizontally, or diagonally) wins the game. If the grid fills up 
 before either player can place 3 in a row, the game is tied, and is called a 
-```cat game'.
+```cat game```.
 
 The grid is displayed to the console via ASCII characters. Each cell is labeled
 by a coordinate between 1 and 9. The console prompts the user to enter the 
@@ -40,7 +40,7 @@ coordinate of a cell in which they would like to place their token, and the
 grid is updated. The winner is then announced when either player wins the game,
 or announces a 'cat game' if the game is a tie.
 
-If the user would like to quit the game, they may enter a lowercase ```q' when 
+If the user would like to quit the game, they may enter a lowercase ```q``` when 
 prompted for their next move. This will quit the game.
 
 ## Rules
@@ -48,9 +48,9 @@ prompted for their next move. This will quit the game.
 - Each token must be placed in a single cell on a grid, defined by a coordinate
   1-9.
 - A token may not be placed on a cell occupied by another token.
-- Any input outside the set of single integers between ```1' and ```9' will cause an
+- Any input outside the set of single integers between `1` and `9` will cause an
 error, and will prompt the user again.
-- The user may also enter a lowercase ```q' to end the game.
+- The user may also enter a lowercase `q` to end the game.
 
 ## Interface
 
@@ -78,9 +78,9 @@ X - Which square? [1-9] :
 ================================================================================
 
 The player who's turn it is, is represented at the beginning of the prompt by
-an ```X' or ```O' (in this case, it is player ```X's turn).
+an `X` or `O` (in this case, it is player `X`s turn).
 
-If player 'X' were to enter a ```5' to the console when prompted, the board would
+If player 'X' were to enter a `5` to the console when prompted, the board would
 be updated, and an 'X' would appear in cell 5. Player 'O' would then be prompted
 for his turn.
 
@@ -132,7 +132,7 @@ Thanks for playing! Goodbye!
 
 ## Code 
 
-Refer to the source code in ```TicTacToe.c``` for any inquiries about the code. 
+Refer to the source code in `TicTacToe.c` for any inquiries about the code. 
 
 The program follows the following architecture:
 
