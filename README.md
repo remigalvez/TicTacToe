@@ -144,3 +144,14 @@ the variable `loopGames` to true in the main function.
 The program follows the following architecture:
 
 <img src="flow-chart.png" width="350"/>
+
+## Compilation
+
+Compatible with all C compilers. 
+
+Using gcc, type in the following commands to compile and run the program.
+
+```
+gcc -o TicTacToe TicTacToe.c
+./TicTacToe
+```
