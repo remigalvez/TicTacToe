@@ -104,7 +104,7 @@ void updateBoard() {
 }
 
 /**
- * Displays formatted ASCII board to the console to simulate refresh.
+ * Renders formatted ASCII board to the console to simulate refresh.
  * Called after each move.
  * 
  * @params
@@ -258,8 +258,8 @@ void printGoodbye() {
  * Begins a game of tic tac toe by clearing console, printing a welcome
  * message, initializing the game board, and starting a running game loop,
  * each loop consisting of one turn. 
- * The winner is displayed at the end of the game, and a goodbye message
- * is printed to the console.
+ * The winner is displayed to the console at the end of the game, and a goodbye
+ * message is printed to the console.
  *
  * @params
  * return
@@ -283,20 +283,24 @@ void game() {
         getValidInput();
         updateBoard();
         drawBoard();
-        evalBoard();
+        evalBoard(); /* Evaluate board */
         PLAYER = !PLAYER; /* Switch players */
     }
     
-    printOutcome(); /* Print outcome of game */
+    /* Print outcome of game & goodbye message */
+    printOutcome();     
     printGoodbye();
 }
 
 int main() {
-    char playAgain;
+    char playAgain = 'n';
+    const bool loopGames = false;
     do {
         game();
-        printf("Would you like ot play again? (y/n) ");
-        scanf(" %c", &playAgain);
+        if (loopGames) {
+            printf("Would you like ot play again? (y/n) ");
+            scanf(" %c", &playAgain);
+        }
     } while (playAgain == 'y');
     return 0;
 }

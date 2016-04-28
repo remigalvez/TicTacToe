@@ -138,6 +138,9 @@ Thanks for playing! Goodbye!
 
 Refer to the source code in `TicTacToe.c` for any inquiries about the code. 
 
+To enable a prompt offering the user to play again at the end of each game, set
+the variable `loopGames` to true in the main function.
+
 The program follows the following architecture:
 
 <img src="flow-chart.png" width="350"/>
